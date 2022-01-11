@@ -1,0 +1,38 @@
+.skills{
+    display: flex;
+    flex-direction:column ;
+    margin: 0em auto;
+    padding: 1em 10em 0em 10em;
+}
+.skills h1{
+    font-size: var(--Sub-Font-Size);
+}
+.skills-Content{
+ display: grid;
+ width: fit-content;
+ margin-top: 2em;
+ grid-template-columns: repeat(6, minmax(20px, 1fr));
+ grid-gap: 10px;
+ height: fit-content;
+}
+.skl span{
+    color: #38ef7d;
+    position:relative;
+}
+.skl{
+    width: 100%; 
+}
+
+.skills .line {
+    width: 8.48em;
+}
+
+@media screen and (max-width:400px) {
+    .skills .line {
+    display: none;
+    }
+    .skills h4{
+        font-size: 30px;
+    }
+    
+}

@@ -1,0 +1,65 @@
+{
+    "Name": "yash",
+    "Field": "Software Engineering",
+    "LinkedinName": "yash-patel14",
+    "Email": "Yash.dp14@gmail.com",
+    "Github": "yash141099",
+    "About": [
+        {
+            "Main": "I have graduated from Sheridan College in Software Engineering. My foucs is currently on web based technologies like React.js and Node.js. I am interested in all kind of Software development that requires Creativity, I have worked on Android App development, Windows UWP and WPF Apps and web based development in Vanilla JS, React and Angular."
+        },
+        {
+            "More": " My other areas of interest include machine learning, UI-UX design and Project Management. I also like my fair share in photography(with phone). In my free time, I prepare for meals and play Video Games."
+        }
+    ],
+    "Skills": [
+        "Adobe XD",
+        "Proto.IO",
+        "HTML & CSS",
+        "JSON",
+        "GitHub",
+        "Javascript ES6+",
+        "React.js",
+        "node.js",
+        "Java",
+        "SQL",
+        "C#",
+        "Python"
+    ],
+    "Certificates": [
+        {
+            "Institute": "LinkedIn Learning",
+            "Course": "JavaScript Essentials",
+            "Date": "Issued On May 2021"
+        },
+        {
+            "Institute": "LinkedIn Learning",
+            "Course": "Advance JavaScript",
+            "Date": "Issued On Jun 2021"
+        },
+        {
+            "Institute": "LinkedIn Learning",
+            "Course": "Node packet manager",
+            "Date": "Issued On May 2021"
+        },
+        {
+            "Institute": "Sheridan College",
+            "Course": "Diploma in Software engineering",
+            "Date": "2020-2021"
+        },
+        {
+            "Institute": "Government Polytechnic",
+            "Course": "Diploma in Information Technology",
+            "Date": "2016-2019"
+        }
+    ],
+    "Projects": [
+        {
+            "Link": "",
+            "Title": "Coming Soon!",
+            "Discription": "",
+            "Tools": "",
+            "GitLink": ""
+        }
+    ]
+}

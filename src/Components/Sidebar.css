@@ -1,0 +1,63 @@
+.sidebar {
+    position: fixed;
+    Top: 30em;
+    right: 0;
+    margin-right: 3em;
+    width: fit-content;
+      z-index: 1;
+}
+.sidebar a{
+    text-decoration: none;
+    font-family: Popins-Light;
+    color: var(--Heading-Font-Color);
+}
+.sidebar a:hover {
+    
+    color: #38ef7d;
+}
+.connect {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+ 
+.quick-jump {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+
+.MuiSvgIcon-root:hover {
+     color: #38ef7d;
+    ;
+}
+
+.fade-in {
+    position: fixed;
+    animation: fade-in 3.5s ease-out;
+}
+
+@keyframes fade-in {
+    0% {
+        top: 35em;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        top: 30em;
+        opacity: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .sidebar {
+        display: none;
+    }
+}

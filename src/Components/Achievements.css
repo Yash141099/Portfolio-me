@@ -1,0 +1,80 @@
+.achievements{
+    margin: 1em auto;
+    padding: 5em 10em 0em 10em;
+    height: fit-content;
+}
+
+.achievements-Content {
+     display: grid;
+     width: fit-content;
+     grid-template-columns: repeat(3, minmax(300px, 1fr));
+     grid-gap: 10px;
+     height: fit-content;
+}
+.certificates{
+    width: 100%;
+    padding: 2em 0em 2em 2em;
+    border-radius: 0.5em;
+    background-color: rgba(13, 20, 121, 0.171);
+    border: 1px solid #38ef7e1e;
+    backdrop-filter: blur(5px);
+    line-height: 1.5;
+    text-align: left;
+    height: max-content;
+;
+}
+ .certificates:hover{
+     transform: translateY(-7px);
+     background-color: rgba(46, 85, 170, 0.171);
+     }
+.certificates Svg {
+    padding: 0.5em;
+    width: 4em;
+    float: right;
+}
+
+.achievements .line{
+    width: 13.2em;
+}
+.achievements h3{
+    color: white;
+    font-size: 26px;
+}
+.achievements Svg{
+    color: #38ef7d;
+}
+
+@media screen and (max-width:400px) {
+        .achievements-Content {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: max-content;
+        align-content: center;
+        margin-top: 2em;
+        }
+
+        .certificates{
+            padding: 3em;
+            border-radius: 1.5em;
+            justify-content: space-between;
+            margin: 0.5em;
+        }
+         
+        .achievements h4{
+            font-size: var(--MainPara-Font-Size);
+        }
+        .achievements h3{
+            font-size: var(--Sub-Font-Size);
+        }
+        .certificates Svg {
+            padding: 1em;
+            width:12em;
+            float: right;
+        }
+
+        .achievements .line {
+            width: 6.4em;
+        }
+    
+}

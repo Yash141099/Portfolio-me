@@ -1,0 +1,30 @@
+.signOff {
+    margin-top: 6em;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+}
+
+.signOff .connect{
+    display: none;
+}
+
+
+@media screen and (max-width:400px) {
+    .signOff .MuiSvgIcon-root {
+        color: #38ef7d;
+        width: 3em;
+        height: 2.5em;
+    }
+
+    .signOff .connect{
+        display: block;
+        font-size: 60px;
+    }
+    .signOff {
+        font-size: 40px;
+    }
+}

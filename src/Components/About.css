@@ -1,0 +1,29 @@
+.about {
+    width: fit-content;
+    height: fit-content;
+    margin: 1em auto;
+    padding: 7em 10em 0em 10em;
+}
+
+.about .line{
+    width: 14.8em;
+}
+
+.about-Content{
+      color:var(--main-font-color);
+      width: fit-content;
+       display: flex;
+       justify-content: flex-start;
+       flex-direction: column;
+      font-family: Popins-Thin;
+}
+.about-Content :first-child{
+    margin-bottom: 1.2em;
+}
+
+@media screen and (max-width:400px) {
+    .about .Line{
+        width: 8.5em;
+    }
+    
+}

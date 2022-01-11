@@ -1,0 +1,115 @@
+@font-face {
+    font-family:Popins-Light;
+    src: url("./Data/Fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: Popins-Bold;
+    src: url("./Data/Fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: Popins-Thin;
+    src: url("./Data/Fonts/Poppins/Poppins-Thin.ttf");
+}
+:root {
+    --main-background: #10192c;
+    --main-font-color: rgb(180, 218, 253);
+    --Heading-Font-Color:rgb(215, 243, 234);
+    --Link-Color:rgb(180, 218, 253);
+    --Headings-Font-Size:50px;
+    --Sub-Font-Size:36px;
+    --MainPara-Font-Size:24px;
+    --SubPara-Font-Size:16px;
+    --Highlight-Color:rgb(3, 121, 87);
+}
+
+
+body{
+    background-color:var(--main-background) ;
+    color: var(--main-font-color);
+    font-family: Popins-Light; 
+    font-display: optional;
+}
+
+.Top{
+    padding: 0em 0em 1em 0em;
+       position: fixed;
+       bottom: 0;
+       right:0;
+       border-radius:50% ;
+       margin-right: 3em;
+}
+.Top .MuiButtonBase-root {
+           background-color:transparent ;
+           border-width: 0.1em;
+           font-size: small;
+           border-style:solid;
+           padding: 12px;
+           box-shadow: 0 0 0.5em 0 rgba(255, 255, 255, 0.25);
+}
+.Top .MuiButtonBase-root:hover {
+   color: var(--main-font-color);
+}
+.MuiSvgIcon-root {
+    font-size: 1em !important;
+    color: var(--Heading-Font-Color)
+}
+h1{
+    font-size: var(--Headings-Font-Size);
+    color: var(--Heading-Font-Color);
+    font-family: Popins-Bold;
+}
+h2 {
+    color: var(--main-font-color);
+    font-size: var(--Sub-Font-Size);
+    font-family: Popins-Light;
+
+}
+
+h3 {
+    color: var(--main-font-color);
+    font-size: var(--MainPara-Font-Size);
+    font-family: Popins-Thin;
+}
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(10vh);
+    visibility: hidden;
+    transition: opacity .6s ease-out, transform 1.5s ease-out;
+    will-change: opacity, visibility;
+}
+
+.Content{
+    width: min-content;
+    padding: 4em;
+}
+.line {
+    content: linear-gradient(to right, #11998e, #38ef7d);
+    height: 2px;
+}
+@media screen and (max-width:400px) {
+    .Content {
+        width: 1450px;
+    }
+
+    .App {
+        width: max-content;
+    }
+
+    :root {
+        --Headings-Font-Size: 86px;
+        --Sub-Font-Size: 56px;
+        --MainPara-Font-Size: 42px;
+        --SubPara-Font-Size: 26px;
+    }
+
+    .line{
+        height: 6px;
+    }
+
+}
